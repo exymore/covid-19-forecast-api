@@ -1,0 +1,5 @@
+[run]
+include = covid_19_app/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
