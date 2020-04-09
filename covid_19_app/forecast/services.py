@@ -163,9 +163,6 @@ def calculate_forecast():
 
 @shared_task
 def run_training():
-    print("Training started")
-    print(os.getcwd())
     fetch_data()
     detect_growth()
     calculate_forecast()
-    print("Training ended")
