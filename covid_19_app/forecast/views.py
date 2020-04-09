@@ -19,6 +19,6 @@ def stats_per_country(request):
     filePath = generate_file_path(country)
     df = pd.read_csv(filePath, parse_dates=True)
     df = df.drop(df.columns[[0]], axis=1)
-    result = df.to_json(orient='records', date_format='iso')
+    result = json.loads(df.to_json(orient='records', date_format='iso'))
     response_data['result'] = result
     return Response(response_data, 200)
