@@ -2,7 +2,541 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adac412a-b709-4c62-b21d-334055ba93ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_prepare_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_countries_list.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Afghanistan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Albania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Algeria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Andorra_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Angola_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Antigua and Barbuda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Argentina_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Armenia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_australian capital territory_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_new south wales_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_northern territory_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_queensland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_south australia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_tasmania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_victoria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Australia_western australia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Austria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Azerbaijan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bahamas_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bahrain_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bangladesh_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Barbados_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Belarus_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Belgium_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Belize_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Benin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bhutan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bolivia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bosnia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Botswana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Brazil_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Brunei_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Bulgaria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Burkina Faso_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Burma_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Burundi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Cabo Verde_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Cambodia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Cameroon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_alberta_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_british columbia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_diamond princess_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_grand princess_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_manitoba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_new brunswick_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_newfoundland and labrador_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_northwest territories_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_nova scotia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_ontario_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_prince edward island_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_quebec_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_recovered_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_saskatchewan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Canada_yukon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Central African Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Chad_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Chile_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_anhui_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_beijing_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_chongqing_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_fujian_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_gansu_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_guangdong_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_guangxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_guizhou_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_hainan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_hebei_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_heilongjiang_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_henan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_hong kong_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_hubei_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_hunan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_inner mongolia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_jiangsu_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_jiangxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_jilin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_liaoning_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_macau_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_ningxia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_qinghai_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_shaanxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_shandong_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_shanghai_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_shanxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_sichuan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_tianjin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_tibet_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_xinjiang_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_yunnan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_China_zhejiang_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Colombia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Congo_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Costa Rica_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Cote d'Ivoire_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Croatia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Cuba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Cyprus_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Czechia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_DRC_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Denmark_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Denmark_faroe islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Denmark_greenland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Diamond Princess_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Djibouti_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Dominica_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Dominican Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Ecuador_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Egypt_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_El Salvador_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Equatorial Guinea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Eritrea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Estonia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Ethiopia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Fiji_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Finland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_french guiana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_french polynesia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_guadeloupe_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_martinique_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_mayotte_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_new caledonia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_reunion_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_saint barthelemy_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_saint pierre and miquelon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_France_st martin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Gabon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Gambia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Georgia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Germany_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Ghana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Greece_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Grenada_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Guatemala_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Guinea-Bissau_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Guinea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Guyana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Haiti_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Holy See_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Honduras_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Hungary_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Iceland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_India_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Indonesia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Iran_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Iraq_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Ireland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Israel_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Italy_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Jamaica_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Japan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Jordan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Kazakhstan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Kenya_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Kosovo_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Kuwait_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Kyrgyzstan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Lao People&quot;s Democratic Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Latvia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Lebanon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Liberia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Libyan Arab Jamahiriya_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Liechtenstein_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Lithuania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Luxembourg_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_MS Zaandam_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Macedonia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Madagascar_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Malawi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Malaysia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Maldives_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Mali_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Malta_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Mauritania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Mauritius_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Mexico_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Moldova_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Monaco_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Mongolia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Montenegro_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Morocco_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Mozambique_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Namibia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Nepal_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Netherlands_aruba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Netherlands_bonaire, sint eustatius and saba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Netherlands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Netherlands_curacao_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Netherlands_sint maarten_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_New Zealand_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Nicaragua_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Niger_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Nigeria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Norway_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Oman_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Pakistan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Panama_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Papua New Guinea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Paraguay_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Peru_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Philippines_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Poland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Portugal_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Qatar_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Romania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Russia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Rwanda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_S. Korea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Saint Kitts and Nevis_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Saint Lucia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Saint Vincent and the Grenadines_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_San Marino_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Sao Tome and Principe_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Saudi Arabia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Senegal_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Serbia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Seychelles_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Sierra Leone_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Singapore_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Slovakia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Slovenia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Somalia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_South Africa_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_South Sudan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Spain_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Sri Lanka_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Sudan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Suriname_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Swaziland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Sweden_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Switzerland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Syrian Arab Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Taiwan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Tanzania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Thailand_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Timor-Leste_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Togo_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Trinidad and Tobago_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Tunisia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Turkey_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UAE_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_anguilla_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_bermuda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_british virgin islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_cayman islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_channel islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_falkland islands (malvinas)_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_gibraltar_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_isle of man_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_montserrat_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_UK_turks and caicos islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_USA_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Uganda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Ukraine_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Uruguay_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Uzbekistan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Venezuela_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Vietnam_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_West Bank and Gaza_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Western Sahara_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Yemen_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Zambia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_forecast_data_Zimbabwe_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Afghanistan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Albania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Algeria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Andorra_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Angola_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Antigua and Barbuda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Argentina_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Armenia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_australian capital territory_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_new south wales_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_northern territory_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_queensland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_south australia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_tasmania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_victoria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Australia_western australia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Austria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Azerbaijan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bahamas_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bahrain_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bangladesh_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Barbados_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Belarus_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Belgium_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Belize_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Benin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bhutan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bolivia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bosnia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Botswana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Brazil_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Brunei_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Bulgaria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Burkina Faso_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Burma_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Burundi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Cabo Verde_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Cambodia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Cameroon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_alberta_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_british columbia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_diamond princess_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_grand princess_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_manitoba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_new brunswick_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_newfoundland and labrador_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_northwest territories_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_nova scotia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_ontario_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_prince edward island_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_quebec_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_recovered_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_saskatchewan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Canada_yukon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Central African Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Chad_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Chile_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_anhui_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_beijing_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_chongqing_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_fujian_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_gansu_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_guangdong_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_guangxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_guizhou_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_hainan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_hebei_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_heilongjiang_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_henan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_hong kong_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_hubei_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_hunan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_inner mongolia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_jiangsu_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_jiangxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_jilin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_liaoning_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_macau_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_ningxia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_qinghai_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_shaanxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_shandong_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_shanghai_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_shanxi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_sichuan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_tianjin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_tibet_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_xinjiang_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_yunnan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_China_zhejiang_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Colombia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Congo_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Costa Rica_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Cote d'Ivoire_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Croatia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Cuba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Cyprus_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Czechia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_DRC_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Denmark_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Denmark_faroe islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Denmark_greenland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Diamond Princess_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Djibouti_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Dominica_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Dominican Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Ecuador_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Egypt_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_El Salvador_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Equatorial Guinea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Eritrea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Estonia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Ethiopia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Fiji_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Finland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_french guiana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_french polynesia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_guadeloupe_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_martinique_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_mayotte_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_new caledonia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_reunion_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_saint barthelemy_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_saint pierre and miquelon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_France_st martin_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Gabon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Gambia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Georgia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Germany_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Ghana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Greece_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Grenada_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Guatemala_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Guinea-Bissau_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Guinea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Guyana_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Haiti_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Holy See_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Honduras_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Hungary_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Iceland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_India_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Indonesia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Iran_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Iraq_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Ireland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Israel_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Italy_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Jamaica_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Japan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Jordan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Kazakhstan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Kenya_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Kosovo_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Kuwait_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Kyrgyzstan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Lao People&quot;s Democratic Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Latvia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Lebanon_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Liberia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Libyan Arab Jamahiriya_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Liechtenstein_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Lithuania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Luxembourg_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_MS Zaandam_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Macedonia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Madagascar_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Malawi_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Malaysia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Maldives_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Mali_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Malta_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Mauritania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Mauritius_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Mexico_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Moldova_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Monaco_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Mongolia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Montenegro_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Morocco_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Mozambique_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Namibia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Nepal_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Netherlands_aruba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Netherlands_bonaire, sint eustatius and saba_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Netherlands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Netherlands_curacao_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Netherlands_sint maarten_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_New Zealand_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Nicaragua_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Niger_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Nigeria_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Norway_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Oman_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Pakistan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Panama_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Papua New Guinea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Paraguay_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Peru_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Philippines_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Poland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Portugal_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Qatar_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Romania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Russia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Rwanda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_S. Korea_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Saint Kitts and Nevis_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Saint Lucia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Saint Vincent and the Grenadines_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_San Marino_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Sao Tome and Principe_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Saudi Arabia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Senegal_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Serbia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Seychelles_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Sierra Leone_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Singapore_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Slovakia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Slovenia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Somalia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_South Africa_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_South Sudan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Spain_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Sri Lanka_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Sudan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Suriname_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Swaziland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Sweden_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Switzerland_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Syrian Arab Republic_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Taiwan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Tanzania_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Thailand_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Timor-Leste_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Togo_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Trinidad and Tobago_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Tunisia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Turkey_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UAE_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_anguilla_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_bermuda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_british virgin islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_cayman islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_channel islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_falkland islands (malvinas)_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_gibraltar_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_isle of man_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_montserrat_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_UK_turks and caicos islands_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_USA_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Uganda_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Ukraine_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Uruguay_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Uzbekistan_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Venezuela_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Vietnam_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_West Bank and Gaza_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Western Sahara_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Yemen_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Zambia_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_processed_data_Zimbabwe_cases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/covid19_stats_countries.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +559,9 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="covid-19-forecast-api" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +629,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,7 +657,8 @@
       <workItem from="1586534608271" duration="68000" />
       <workItem from="1586534680561" duration="11377000" />
       <workItem from="1586558256743" duration="1931000" />
-      <workItem from="1586588458023" duration="3865000" />
+      <workItem from="1586588458023" duration="6701000" />
+      <workItem from="1586606268161" duration="8925000" />
     </task>
     <servers />
   </component>
@@ -128,35 +678,35 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="675" y="361" key="#com.intellij.fileTypes.FileTypeChooser/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586534364881" />
-    <state x="-1069" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586589848216">
-      <screen x="-1680" y="23" width="1680" height="1027" />
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586611964408">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1069" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589848216" />
-    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586558693389" />
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586611964408" />
     <state x="748" y="312" key="FileChooserDialogImpl" timestamp="1586447785252">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="748" y="312" key="FileChooserDialogImpl/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586447785252" />
-    <state width="1878" height="394" key="GridCell.Tab.0.bottom" timestamp="1586592095541">
+    <state width="1878" height="423" key="GridCell.Tab.0.bottom" timestamp="1586620485664">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="381" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950146" />
-    <state width="1878" height="394" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095541" />
-    <state width="1878" height="394" key="GridCell.Tab.0.center" timestamp="1586592095541">
+    <state width="1878" height="423" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586620485664" />
+    <state width="1878" height="423" key="GridCell.Tab.0.center" timestamp="1586620485663">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="381" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950146" />
-    <state width="1878" height="394" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095541" />
-    <state width="1878" height="394" key="GridCell.Tab.0.left" timestamp="1586592095540">
+    <state width="1878" height="423" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586620485663" />
+    <state width="1878" height="423" key="GridCell.Tab.0.left" timestamp="1586620485662">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="381" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950145" />
-    <state width="1878" height="394" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095540" />
-    <state width="1878" height="394" key="GridCell.Tab.0.right" timestamp="1586592095541">
+    <state width="1878" height="423" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586620485662" />
+    <state width="1878" height="423" key="GridCell.Tab.0.right" timestamp="1586620485663">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="381" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950146" />
-    <state width="1878" height="394" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095541" />
+    <state width="1878" height="423" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586620485663" />
     <state x="361" y="243" key="SettingsEditor" timestamp="1586535190669">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -168,6 +718,7 @@
     <state x="640" y="308" width="639" height="486" key="find.popup/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586558435777" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/covid_19_forecast_api$covid19_endpoint.coverage" NAME="covid19_endpoint Coverage Results" MODIFIED="1586591987443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid_19_forecast_api$covid19_endpoint.coverage" NAME="app Coverage Results" MODIFIED="1586606147545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covid_19_forecast_api$app.coverage" NAME="app Coverage Results" MODIFIED="1586620485651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

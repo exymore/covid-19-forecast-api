@@ -51,5 +51,17 @@ def forecast():
         return Response(status=404)
 
 
+@app.route("/stats", methods=['GET'])
+def stats():
+    try:
+        df = pd.read_csv('data/covid19_stats_countries.csv', parse_dates=True)
+        df = df.drop(df.columns[[0]], axis=1)
+
+        result = df.to_json(orient='records', date_format='iso')
+        return result
+    except FileNotFoundError:
+        return Response(status=404)
+
+
 if __name__ == "__main__":
     app.run(debug=False, host='0.0.0.0', port=5001)

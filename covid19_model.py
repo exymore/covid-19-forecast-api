@@ -88,30 +88,33 @@ def detect_growth():
 
 
 def build_model(country):
-    df = pd.read_csv('data/covid19_processed_data_' + country + '.csv', parse_dates=True)
-    df_ = df.copy()
-    df = df[['Report_Date', country, 'cap']].dropna()
-    
-    df.columns = ['ds', 'y', 'cap']
-    
-    m = Prophet(growth="logistic")
-    m.fit(df)
+    try:
+        df = pd.read_csv('data/covid19_processed_data_' + country + '.csv', parse_dates=True)
+        df_ = df.copy()
+        df = df[['Report_Date', country, 'cap']].dropna()
 
-    future = m.make_future_dataframe(periods=20)
-    future['cap'] = df['cap'].iloc[0]
+        df.columns = ['ds', 'y', 'cap']
 
-    forecast = m.predict(future)
-    
-    res_df = forecast.set_index('ds')[['yhat', 'yhat_lower', 'yhat_upper']].join(df.set_index('ds').y).reset_index()
-    res_df['current_date'] = df['ds'].iloc[-1]
-    res_df['fastest_growth_day'] = df_['fastest_grow_day'].iloc[-1]
-    res_df['growth_stabilized'] = df_['growth_stabilized'].iloc[-1]
-    res_df['current_day'] = df_['timestep'].iloc[-1]
-    res_df['cap'] = df['cap'].iloc[0]
-    
-    res_df.to_csv('data/covid19_forecast_data_' + country + '.csv')
-    
-    print('Processed:', country)
+        m = Prophet(growth="logistic")
+        m.fit(df)
+
+        future = m.make_future_dataframe(periods=20)
+        future['cap'] = df['cap'].iloc[0]
+
+        forecast = m.predict(future)
+
+        res_df = forecast.set_index('ds')[['yhat', 'yhat_lower', 'yhat_upper']].join(df.set_index('ds').y).reset_index()
+        res_df['current_date'] = df['ds'].iloc[-1]
+        res_df['fastest_growth_day'] = df_['fastest_grow_day'].iloc[-1]
+        res_df['growth_stabilized'] = df_['growth_stabilized'].iloc[-1]
+        res_df['current_day'] = df_['timestep'].iloc[-1]
+        res_df['cap'] = df['cap'].iloc[0]
+
+        res_df.to_csv('data/covid19_forecast_data_' + country + '.csv')
+
+        print('Processed:', country)
+    except FileNotFoundError:
+        print(f'File not found: data/covid19_forecast_data_{country}.csv')
 
 
 def calculate_forecast():
