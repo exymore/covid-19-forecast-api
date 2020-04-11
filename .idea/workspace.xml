@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adac412a-b709-4c62-b21d-334055ba93ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_endpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="b54d2773-21bd-49c8-83f8-3de080ee468c" />
+  <component name="ProjectId" id="1aJ8dKiQPAqkvzO4LBM5NZeLnlI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid-19-forecast-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adac412a-b709-4c62-b21d-334055ba93ef" name="Default Changelist" comment="" />
+      <created>1586442421403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586442421403</updated>
+      <workItem from="1586442422570" duration="5969000" />
+      <workItem from="1586451383435" duration="2112000" />
+      <workItem from="1586534577360" duration="16000" />
+      <workItem from="1586534608271" duration="68000" />
+      <workItem from="1586534680561" duration="11377000" />
+      <workItem from="1586558256743" duration="1931000" />
+      <workItem from="1586588458023" duration="3095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="69" key="#Docker" timestamp="1586446782098">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="632" y="69" key="#Docker/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586446782098" />
+    <state x="734" y="279" key="#Docker2" timestamp="1586442577313">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="734" y="279" key="#Docker2/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586442577313" />
+    <state x="675" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586534364881">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="675" y="361" key="#com.intellij.fileTypes.FileTypeChooser/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586534364881" />
+    <state x="-1069" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586589848216">
+      <screen x="-1680" y="23" width="1680" height="1027" />
+    </state>
+    <state x="-1069" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589848216" />
+    <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586558693389" />
+    <state x="748" y="312" key="FileChooserDialogImpl" timestamp="1586447785252">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="748" y="312" key="FileChooserDialogImpl/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586447785252" />
+    <state width="1878" height="394" key="GridCell.Tab.0.bottom" timestamp="1586592095541">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="381" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950146" />
+    <state width="1878" height="394" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095541" />
+    <state width="1878" height="394" key="GridCell.Tab.0.center" timestamp="1586592095541">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="381" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950146" />
+    <state width="1878" height="394" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095541" />
+    <state width="1878" height="394" key="GridCell.Tab.0.left" timestamp="1586592095540">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="381" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950145" />
+    <state width="1878" height="394" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095540" />
+    <state width="1878" height="394" key="GridCell.Tab.0.right" timestamp="1586592095541">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="381" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586589950146" />
+    <state width="1878" height="394" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586592095541" />
+    <state x="361" y="243" key="SettingsEditor" timestamp="1586535190669">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="361" y="243" key="SettingsEditor/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586535190669" />
+    <state x="-1120" y="300" width="639" height="486" key="find.popup" timestamp="1586560437137">
+      <screen x="-1680" y="23" width="1680" height="1027" />
+    </state>
+    <state x="-1120" y="300" width="639" height="486" key="find.popup/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1586560437137" />
+    <state x="640" y="308" width="639" height="486" key="find.popup/-1680.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1586558435777" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/covid_19_forecast_api$covid19_endpoint.coverage" NAME="covid19_endpoint Coverage Results" MODIFIED="1586591987443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

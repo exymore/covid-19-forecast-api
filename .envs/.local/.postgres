@@ -1,7 +1,0 @@
-# PostgreSQL
-# ------------------------------------------------------------------------------
-POSTGRES_HOST=postgres
-POSTGRES_PORT=5432
-POSTGRES_DB=covid_19_app
-POSTGRES_USER=VaJWtNSUwTemndfwSTgvRGwDTEdjZbMq
-POSTGRES_PASSWORD=djVJMrazD3fTCOy0OeFhAHzWe6HOHmV1yILLqKvCpFeLPioxpbIwqrtof4RHMVNi
