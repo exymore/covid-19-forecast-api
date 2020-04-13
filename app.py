@@ -24,8 +24,7 @@ scheduler.start()
 scheduler.add_job(
     func=run_training,
     trigger='cron',
-    hour='2',
-    minute='00')
+    hour='9, 12, 15, 18', )
 
 atexit.register(lambda: scheduler.shutdown())
 
