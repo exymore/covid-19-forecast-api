@@ -30,7 +30,7 @@ def build_covid19_data():
     response = requests.get(request_str)
     json_data = response.json() if response and response.status_code == 200 else None
 
-    per_countries_response = requests.get('https://corona.lmao.ninja/countries/')
+    per_countries_response = requests.get('https://corona.lmao.ninja/v2/countries/')
     per_countries_actual = per_countries_response.json()
     df = None
     special_countries = ['China', 'Australia', 'Canada']
