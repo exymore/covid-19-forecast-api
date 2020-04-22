@@ -36,145 +36,150 @@
 34,Congo_cases
 35,DRC_cases
 36,Costa Rica_cases
-37,Croatia_cases
-38,Diamond Princess_cases
-39,Cuba_cases
-40,Cyprus_cases
-41,Czechia_cases
-42,Denmark_cases
-43,Djibouti_cases
-44,Dominican Republic_cases
-45,Ecuador_cases
-46,Egypt_cases
-47,El Salvador_cases
-48,Equatorial Guinea_cases
-49,Eritrea_cases
-50,Estonia_cases
-51,Swaziland_cases
-52,Ethiopia_cases
-53,Fiji_cases
-54,Finland_cases
-55,France_cases
-56,Gabon_cases
-57,Gambia_cases
-58,Georgia_cases
-59,Germany_cases
-60,Ghana_cases
-61,Greece_cases
-62,Guatemala_cases
-63,Guinea_cases
-64,Guyana_cases
-65,Haiti_cases
-66,Honduras_cases
-67,Hungary_cases
-68,Iceland_cases
-69,India_cases
-70,Indonesia_cases
-71,Iran_cases
-72,Iraq_cases
-73,Ireland_cases
-74,Israel_cases
-75,Italy_cases
-76,Jamaica_cases
-77,Japan_cases
-78,Jordan_cases
-79,Kazakhstan_cases
-80,Kenya_cases
-81,S. Korea_cases
-82,Kuwait_cases
-83,Kyrgyzstan_cases
-84,Latvia_cases
-85,Lebanon_cases
-86,Liberia_cases
-87,Liechtenstein_cases
-88,Lithuania_cases
-89,Luxembourg_cases
-90,Madagascar_cases
-91,Malaysia_cases
-92,Maldives_cases
-93,Malta_cases
-94,Mauritania_cases
-95,Mauritius_cases
-96,Mexico_cases
-97,Moldova_cases
-98,Monaco_cases
-99,Mongolia_cases
-100,Montenegro_cases
-101,Morocco_cases
-102,Namibia_cases
-103,Nepal_cases
-104,Netherlands_cases
-105,New Zealand_cases
-106,Nicaragua_cases
-107,Niger_cases
-108,Nigeria_cases
-109,Macedonia_cases
-110,Norway_cases
-111,Oman_cases
-112,Pakistan_cases
-113,Panama_cases
-114,Papua New Guinea_cases
-115,Paraguay_cases
-116,Peru_cases
-117,Philippines_cases
-118,Poland_cases
-119,Portugal_cases
-120,Qatar_cases
-121,Romania_cases
-122,Russia_cases
-123,Rwanda_cases
-124,Saint Lucia_cases
-125,Saint Vincent and the Grenadines_cases
-126,San Marino_cases
-127,Saudi Arabia_cases
-128,Senegal_cases
-129,Serbia_cases
-130,Seychelles_cases
-131,Singapore_cases
-132,Slovakia_cases
-133,Slovenia_cases
-134,Somalia_cases
-135,South Africa_cases
-136,Spain_cases
-137,Sri Lanka_cases
-138,Sudan_cases
-139,Suriname_cases
-140,Sweden_cases
-141,Switzerland_cases
-142,Taiwan_cases
-143,Tanzania_cases
-144,Thailand_cases
-145,Togo_cases
-146,Trinidad and Tobago_cases
-147,Tunisia_cases
-148,Turkey_cases
-149,Uganda_cases
-150,Ukraine_cases
-151,UAE_cases
-152,UK_cases
-153,Uruguay_cases
-154,USA_cases
-155,Uzbekistan_cases
-156,Venezuela_cases
-157,Vietnam_cases
-158,Zambia_cases
-159,Zimbabwe_cases
-160,Dominica_cases
-161,Grenada_cases
-162,Mozambique_cases
-163,Syrian Arab Republic_cases
-164,Timor-Leste_cases
-165,Belize_cases
-166,Libyan Arab Jamahiriya_cases
-167,Guinea-Bissau_cases
-168,Mali_cases
-169,Saint Kitts and Nevis_cases
-170,MS Zaandam_cases
-171,Botswana_cases
-172,Burundi_cases
-173,Sierra Leone_cases
-174,Malawi_cases
-175,South Sudan_cases
-176,Western Sahara_cases
-177,Sao Tome and Principe_cases
-178,Yemen_cases
+37,Côte d'Ivoire_cases
+38,Croatia_cases
+39,Diamond Princess_cases
+40,Cuba_cases
+41,Cyprus_cases
+42,Czechia_cases
+43,Denmark_cases
+44,Djibouti_cases
+45,Dominican Republic_cases
+46,Ecuador_cases
+47,Egypt_cases
+48,El Salvador_cases
+49,Equatorial Guinea_cases
+50,Eritrea_cases
+51,Estonia_cases
+52,Swaziland_cases
+53,Ethiopia_cases
+54,Fiji_cases
+55,Finland_cases
+56,France_cases
+57,Gabon_cases
+58,Gambia_cases
+59,Georgia_cases
+60,Germany_cases
+61,Ghana_cases
+62,Greece_cases
+63,Guatemala_cases
+64,Guinea_cases
+65,Guyana_cases
+66,Haiti_cases
+67,Honduras_cases
+68,Hungary_cases
+69,Iceland_cases
+70,India_cases
+71,Indonesia_cases
+72,Iran_cases
+73,Iraq_cases
+74,Ireland_cases
+75,Israel_cases
+76,Italy_cases
+77,Jamaica_cases
+78,Japan_cases
+79,Jordan_cases
+80,Kazakhstan_cases
+81,Kenya_cases
+82,S. Korea_cases
+83,Kuwait_cases
+84,Kyrgyzstan_cases
+85,Latvia_cases
+86,Lebanon_cases
+87,Liberia_cases
+88,Liechtenstein_cases
+89,Lithuania_cases
+90,Luxembourg_cases
+91,Madagascar_cases
+92,Malaysia_cases
+93,Maldives_cases
+94,Malta_cases
+95,Mauritania_cases
+96,Mauritius_cases
+97,Mexico_cases
+98,Moldova_cases
+99,Monaco_cases
+100,Mongolia_cases
+101,Montenegro_cases
+102,Morocco_cases
+103,Namibia_cases
+104,Nepal_cases
+105,Netherlands_cases
+106,New Zealand_cases
+107,Nicaragua_cases
+108,Niger_cases
+109,Nigeria_cases
+110,Macedonia_cases
+111,Norway_cases
+112,Oman_cases
+113,Pakistan_cases
+114,Panama_cases
+115,Papua New Guinea_cases
+116,Paraguay_cases
+117,Peru_cases
+118,Philippines_cases
+119,Poland_cases
+120,Portugal_cases
+121,Qatar_cases
+122,Romania_cases
+123,Russia_cases
+124,Rwanda_cases
+125,Saint Lucia_cases
+126,Saint Vincent and the Grenadines_cases
+127,San Marino_cases
+128,Saudi Arabia_cases
+129,Senegal_cases
+130,Serbia_cases
+131,Seychelles_cases
+132,Singapore_cases
+133,Slovakia_cases
+134,Slovenia_cases
+135,Somalia_cases
+136,South Africa_cases
+137,Spain_cases
+138,Sri Lanka_cases
+139,Sudan_cases
+140,Suriname_cases
+141,Sweden_cases
+142,Switzerland_cases
+143,Taiwan_cases
+144,Tanzania_cases
+145,Thailand_cases
+146,Togo_cases
+147,Trinidad and Tobago_cases
+148,Tunisia_cases
+149,Turkey_cases
+150,Uganda_cases
+151,Ukraine_cases
+152,UAE_cases
+153,UK_cases
+154,Uruguay_cases
+155,USA_cases
+156,Uzbekistan_cases
+157,Venezuela_cases
+158,Vietnam_cases
+159,Zambia_cases
+160,Zimbabwe_cases
+161,Dominica_cases
+162,Grenada_cases
+163,Mozambique_cases
+164,Syrian Arab Republic_cases
+165,Timor-Leste_cases
+166,Belize_cases
+167,Lao People's Democratic Republic_cases
+168,Libyan Arab Jamahiriya_cases
+169,Guinea-Bissau_cases
+170,Mali_cases
+171,Saint Kitts and Nevis_cases
+172,MS Zaandam_cases
+173,Botswana_cases
+174,Burundi_cases
+175,Sierra Leone_cases
+176,Malawi_cases
+177,South Sudan_cases
+178,Western Sahara_cases
+179,Sao Tome and Principe_cases
+180,Yemen_cases
+181,Comoros_cases
+182,Tajikistan_cases
+183,Lesotho_cases

@@ -10,12 +10,10 @@ def build_country_data(country, actual):
     new_date_key = datetime.strftime(datetime.strptime([*keys][-1], '%m/%d/%y') + timedelta(days=1), "%m/%d/%y")
     country_name = country.get('country')
     for key in keys:
-        target_entry = {'Report_Date': key}
-        if country.get('province') is not None:
-            country_name = country_name + '_' + country.get('province')
-        target_entry[country_name + '_cases'] = country.get('timeline').get('cases').get(key)
-        target_entry[country_name + '_deaths'] = country.get('timeline').get('deaths').get(key)
-        target_entry[country_name + '_recovered'] = country.get('timeline').get('recovered').get(key)
+        target_entry = {'Report_Date': key, country_name + '_cases': country.get('timeline').get('cases').get(key),
+                        country_name + '_deaths': country.get('timeline').get('deaths').get(key),
+                        country_name + '_recovered': country.get('timeline').get('recovered').get(key)}
+
         res.append(target_entry)
 
     additional_entry = {'Report_Date': new_date_key, country_name + '_cases': actual.get('cases'),

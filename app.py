@@ -18,16 +18,6 @@ def run_training():
     model.calculate_forecast()
 
 
-scheduler = BackgroundScheduler()
-scheduler.start()
-
-scheduler.add_job(
-    func=run_training,
-    trigger='cron',
-    hour='9, 12, 15, 18', )
-
-atexit.register(lambda: scheduler.shutdown())
-
 app = Flask(__name__)
 CORS(app)
 
